@@ -14,13 +14,6 @@ const StatusUpdates = () => {
           src="https://www.irishexaminer.com/cms_media/module_img/275/137630_1_seoimage16x9_ie-401163_4bad92fd00a3493386706e00704e3488.jpg"
           alt=""
         />
-        <h2>Ann</h2>
-      </div>
-      <div className={styles.update__headers}>
-        <img
-          src="https://www.irishexaminer.com/cms_media/module_img/275/137630_1_seoimage16x9_ie-401163_4bad92fd00a3493386706e00704e3488.jpg"
-          alt=""
-        />
         <h2>Skelly</h2>
       </div>
       <div className={styles.update__headers}>
