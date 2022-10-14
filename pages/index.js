@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Chats from "../component/Chats";
 import StatusUpdates from "../component/Status";
 import styles from "../styles/Home.module.css";
@@ -18,10 +19,12 @@ export default function Home() {
         <div className={styles.header}>
           <h2>Chat</h2>
           <div className={styles.profile__icon}>
-            <img
-              src="https://www.irishexaminer.com/cms_media/module_img/275/137630_1_seoimage16x9_ie-401163_4bad92fd00a3493386706e00704e3488.jpg"
-              alt=""
-            />
+            <Link href="/profile">
+              <img
+                src="https://www.irishexaminer.com/cms_media/module_img/275/137630_1_seoimage16x9_ie-401163_4bad92fd00a3493386706e00704e3488.jpg"
+                alt=""
+              />
+            </Link>
           </div>
         </div>
         <div className={styles.input_section}>
