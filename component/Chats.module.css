@@ -44,12 +44,10 @@
 
 .msg__details :nth-child(2) {
     margin-top: 5px;
-    color: blue;
+    color: rgb(144, 144, 241)
 }
 
 /**********Styling the chat Ends ***********/
-
-
 
 
 

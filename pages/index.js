@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <div>
         <div className={styles.header}>
-          <h2>Chat</h2>
+          <h2>2GO</h2>
           <div className={styles.profile__icon}>
             <Link href="/profile">
               <img
