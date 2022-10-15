@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Chat from "../component/Chat";
 import Chats from "../component/Chats";
 import StatusUpdates from "../component/Status";
 import styles from "../styles/Home.module.css";
@@ -33,6 +34,7 @@ export default function Home() {
       </div>
       <StatusUpdates />
       <Chats />
+      <Chat />
     </div>
   );
 }
