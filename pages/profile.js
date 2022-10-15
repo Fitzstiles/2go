@@ -10,12 +10,9 @@ import WcIcon from "@mui/icons-material/Wc";
 import Link from "next/link";
 
 const Profile = () => {
-  // const userProfile=[{
-
-  // }]
   return (
     <div className={styles.userProfile}>
-      <div className={styles.header}>
+      <div className={styles.profile__header}>
         <div className={styles.profile}>
           <Link href="/">
             <ArrowBackIosNewIcon />
@@ -23,6 +20,14 @@ const Profile = () => {
           <h2>Profile</h2>
         </div>
         <MoreVertIcon />
+      </div>
+      <div className={styles.profile__set}>
+        <div className={styles.profile__image}>
+          <img
+            src="https://www.irishexaminer.com/cms_media/module_img/275/137630_1_seoimage16x9_ie-401163_4bad92fd00a3493386706e00704e3488.jpg"
+            alt=""
+          />
+        </div>
       </div>
       <div className={styles.profile__details}>
         <div className={styles.badges}>

@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -16,8 +18,8 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+::-webkit-scrollbar {
+  display: none;
 }
 
 @media (prefers-color-scheme: dark) {
