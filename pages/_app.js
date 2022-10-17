@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import Preloader from "../component/Preloader";
-import { Fragment, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
