@@ -13,7 +13,7 @@
 }
 
 .header h2:nth-child(1) {
-  color: rgb(144, 144, 241);
+  color: #1484CE;
 }
 
 .profile__icon {
@@ -172,3 +172,40 @@
   color: rgb(145, 137, 137);
   margin-bottom: 2px;
 }
+
+/*********Styling the profile page Ends********/
+
+
+
+
+/*********Styling the get Started page ********/
+
+.getStarted {
+  width: 100%;
+  text-align: center;
+}
+
+.getStarted h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.getStarted p {
+  color: gray;
+}
+
+.button {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+}
+
+.button a {
+  background-color: #1380C8;
+  padding: 10px 90px;
+  border-radius: 10px;
+}
+
+/*********Styling the get Started page ********/
