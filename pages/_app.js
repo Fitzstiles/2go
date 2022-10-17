@@ -1,7 +1,13 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import Preloader from "../component/Preloader";
+import { Fragment, useEffect, useState } from "react";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+  });
+  return <>{!loading ? <Preloader /> : <Component {...pageProps} />}</>;
 }
 
-export default MyApp
+export default MyApp;
