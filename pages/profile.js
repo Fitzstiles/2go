@@ -38,42 +38,42 @@ const Profile = () => {
       </div>
       <div className="user__details">
         <div className={styles.name}>
-          <PersonIcon />
+          <PersonIcon style={{ backgroundColor: "#1380C8" }} />
           <div className="info">
             <p>Username</p>
             <p>Anna44</p>
           </div>
         </div>
         <div className={styles.name}>
-          <ManIcon />
+          <ManIcon style={{ backgroundColor: "orange" }} />
           <div className="info">
             <p>Gender</p>
             <p>Female</p>
           </div>
         </div>
         <div className={styles.name}>
-          <ManIcon />
+          <ManIcon style={{ backgroundColor: "green" }} />
           <div className="info">
             <p>Age</p>
             <p>22</p>
           </div>
         </div>
         <div className={styles.name}>
-          <LocationOnIcon />
+          <LocationOnIcon style={{ backgroundColor: "purple" }} />
           <div className="info">
             <p>Location</p>
             <p>Enugu</p>
           </div>
         </div>
         <div className={styles.name}>
-          <WcIcon />
+          <WcIcon style={{ backgroundColor: "#09093a" }} />
           <div className="info">
             <p>Relationship status</p>
             <p>Single</p>
           </div>
         </div>
         <div className={styles.name}>
-          <WcIcon />
+          <WcIcon style={{ backgroundColor: "#f72e2e" }} />
           <div className="info">
             <p>Star level</p>
             <p>Veteran</p>
