@@ -36,7 +36,7 @@ const Profile = () => {
         </div>
         <span>Online</span>
       </div>
-      <div className="user__details">
+      <div className={styles.user__details}>
         <div className={styles.name}>
           <PersonIcon style={{ backgroundColor: "#1380C8" }} />
           <div className="info">

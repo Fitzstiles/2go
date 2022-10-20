@@ -10,13 +10,13 @@ const getstarted = () => {
           <div className={styles.left__images}>
             <div className={styles.circle__images}>
               <img
-                src="https://static.wikia.nocookie.net/bighero6/images/c/c1/Tadashi.png/revision/latest/top-crop/width/360/height/450?cb=20190612034949"
+                src="https://i.quotev.com/u/15/3/30/t/microbots_tadashi_hamada_x_reader_by_musicmaniac427-d87bu49.jpg"
                 alt=""
               />
             </div>
             <div className={styles.circle__images}>
               <img
-                src="https://www.irishexaminer.com/cms_media/module_img/275/137630_1_seoimage16x9_ie-401163_4bad92fd00a3493386706e00704e3488.jpg"
+                src="https://64.media.tumblr.com/2a0f4b910b984401f6c537440fc7dff5/80bdb9a44f0ba38d-73/s1280x1920/37f95c315e6c205c68197d8e90a9bd0a729b0205.jpg"
                 alt=""
               />
             </div>
@@ -38,7 +38,7 @@ const getstarted = () => {
             {/* image2 */}
             <div className={styles.circle__images}>
               <img
-                src="https://www.irishexaminer.com/cms_media/module_img/275/137630_1_seoimage16x9_ie-401163_4bad92fd00a3493386706e00704e3488.jpg"
+                src="https://i.quotev.com/img/q/u/18/4/2/i5ypr3tnhs.jpg"
                 alt=""
               />
             </div>
@@ -47,14 +47,14 @@ const getstarted = () => {
             {/* image 1 */}
             <div className={styles.circle__images}>
               <img
-                src="https://www.irishexaminer.com/cms_media/module_img/275/137630_1_seoimage16x9_ie-401163_4bad92fd00a3493386706e00704e3488.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZZHdIx6ej66M1tU0x4Fy5TphQsTMYXYv71-XGIrlm5wWKuwQ7x0dGlhXzGyLYfyNrB4&usqp=CAU"
                 alt=""
               />
             </div>
             {/* image 2 */}
             <div className={styles.circle__images}>
               <img
-                src="https://www.irishexaminer.com/cms_media/module_img/275/137630_1_seoimage16x9_ie-401163_4bad92fd00a3493386706e00704e3488.jpg"
+                src="https://www.everythingmouse.com/wp-content/uploads/2020/04/flynn-rider.jpg"
                 alt=""
               />
             </div>
