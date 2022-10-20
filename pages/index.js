@@ -2,11 +2,11 @@ import Head from "next/head";
 import Link from "next/link";
 import Chat from "../component/Chat";
 import Chats from "../component/Chats";
-import Preloader from "../component/Preloader";
 import StatusUpdates from "../component/Status";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
+  const isUser = true;
   return (
     <div className={styles.container}>
       <Head>
