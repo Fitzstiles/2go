@@ -217,7 +217,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .image__container {
@@ -246,8 +245,10 @@
 .centralize__image {
   display: flex;
   align-items: center;
-  /* margin-top: 200px; */
   height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .right__images {
