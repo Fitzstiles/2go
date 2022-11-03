@@ -1,5 +1,5 @@
 import styles from "./Chats.module.css";
-const Chats = () => {
+const Navigation = () => {
   return (
     <div className={styles.container}>
       <div className={styles.headers}>
@@ -11,4 +11,4 @@ const Chats = () => {
   );
 };
 
-export default Chats;
+export default Navigation;

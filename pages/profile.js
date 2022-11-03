@@ -45,7 +45,7 @@ const Profile = () => {
           </div>
         </div>
         <div className={styles.name}>
-          <ManIcon style={{ backgroundColor: "orange" }} />
+          <WcIcon style={{ backgroundColor: "orange" }} />
           <div className="info">
             <p>Gender</p>
             <p>Female</p>
@@ -73,7 +73,7 @@ const Profile = () => {
           </div>
         </div>
         <div className={styles.name}>
-          <WcIcon style={{ backgroundColor: "#f72e2e" }} />
+          <StarIcon style={{ backgroundColor: "#f72e2e" }} />
           <div className="info">
             <p>Star level</p>
             <p>Veteran</p>

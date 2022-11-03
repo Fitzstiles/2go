@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
-const getstarted = () => {
+const Getstarted = () => {
   return (
     <div className={styles.getStarted}>
       <h2>Welcome to 2go</h2>
@@ -68,4 +68,4 @@ const getstarted = () => {
   );
 };
 
-export default getstarted;
+export default Getstarted;

@@ -9,7 +9,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 0;
+  max-width: 90%;
+  margin: auto;
 }
 
 .header h2:nth-child(1) {
@@ -85,6 +87,8 @@
 .update__headers h2 {
   font-weight: 100;
 }
+
+
 
 /*********Styling the profile page ********/
 .user__details {
@@ -273,3 +277,62 @@
 }
 
 /*********Styling the get Started page ********/
+
+
+/*********Styling the get onboarding page ********/
+.onboarding__container {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://mir-s3-cdn-cf.behance.net/projects/max_808/ba2df257215135.Y3JvcCw3MDksNTU1LDAsMA.png') center/cover no-repeat fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.onboarding__container input {
+  outline: none;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
+
+.onboarding__container input::placeholder {
+  color: white;
+}
+
+.email,
+.password,
+.username {
+  margin-bottom: 30px;
+}
+
+.password p {
+  margin-bottom: 10px;
+}
+
+.username p {
+  margin-bottom: 10px;
+}
+
+.email p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.gender input {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.onboarding__container a {
+  background-color: #1380C8;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+/*********Styling the get onboarding page  ends********/
