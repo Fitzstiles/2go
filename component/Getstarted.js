@@ -62,7 +62,7 @@ const Getstarted = () => {
         </div>
       </div>
       <div className={styles.button}>
-        <Link href="/">Get Started</Link>
+        <Link href="/chat">Get Started</Link>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import styles from "../component/Chats.module.css";
-const Chat = () => {
+const Message = () => {
   return (
     <div className={styles.chat__container}>
       <div className={styles.chatsss}>
@@ -186,4 +186,4 @@ const Chat = () => {
   );
 };
 
-export default Chat;
+export default Message;

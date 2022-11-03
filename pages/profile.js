@@ -41,7 +41,7 @@ const Profile = () => {
           <PersonIcon style={{ backgroundColor: "#1380C8" }} />
           <div className="info">
             <p>Username</p>
-            <p>Anna44</p>
+            <p>User01</p>
           </div>
         </div>
         <div className={styles.name}>
