@@ -14,7 +14,7 @@ const Profile = () => {
     <div className={styles.userProfile}>
       <div className={styles.profile__header}>
         <div className={styles.profile}>
-          <Link href="/">
+          <Link href="/chat">
             <ArrowBackIosNewIcon />
           </Link>
           <h2>Profile</h2>
