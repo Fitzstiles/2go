@@ -1,14 +1,15 @@
 .text__container {
     width: 100%;
+    position: relative;
+    height: 100vh;
 }
 
 .chat__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 90%;
-    margin: auto;
-    padding: 10px 0;
+    background-color: gray;
+    padding: 10px;
 }
 
 .xender {
@@ -30,9 +31,46 @@
     margin-right: 10px;
 }
 
+.receiver {
+    margin-left: 10px;
+}
+
 .receiver p {
     width: fit-content;
     padding: 3px 10px;
     border-radius: 10px;
     background-color: gray;
+}
+
+.input__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    bottom: 20px;
+}
+
+.input__section input {
+    flex: 1;
+    border: none;
+}
+
+.input__section svg {
+    color: #1484CE;
+    margin: 0 12px;
+}
+
+.textssss {
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+@media screen and (min-width:700px) {
+    .text__container {
+        max-width: 80%;
+        margin: auto;
+    }
 }
