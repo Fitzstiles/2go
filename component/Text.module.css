@@ -1,0 +1,38 @@
+.text__container {
+    width: 100%;
+}
+
+.chat__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.xender {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.xender p {
+    background-color: #1484CE;
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.xender small {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.receiver p {
+    width: fit-content;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background-color: gray;
+}
