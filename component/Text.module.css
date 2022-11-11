@@ -53,9 +53,19 @@
     bottom: 20px;
 }
 
-.input__section input {
-    flex: 1;
+.input__section textarea {
+    /* flex: 1; */
+    width: 100%;
+    outline: none;
     border: none;
+    border-radius: 30px;
+    margin-left: 2px;
+    padding: 0 10px;
+    resize: none;
+    font-size: 14px;
+    display: flex;
+    background-color: rgb(44, 44, 44);
+    color: white;
 }
 
 .input__section svg {

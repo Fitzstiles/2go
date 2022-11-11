@@ -83,10 +83,22 @@ const Textss = () => {
             <small>12:22</small>
           </div>
         </div>
+        <div className={styles.receiver}>
+          <div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro
+              corrupti iste, quasi voluptatibus, sint harum architecto modi
+              minus facilis numquam reiciendis aut voluptatem repudiandae?
+              Molestias veritatis ullam minima. Quaerat, beatae.
+            </p>
+            <small>12:22</small>
+          </div>
+        </div>
       </div>
 
       <div className={styles.input__section}>
-        <input type="text" />
+        <textarea></textarea>
+        {/* <input type="text" /> */}
         <InsertEmoticonIcon />
         <SendIcon />
       </div>
